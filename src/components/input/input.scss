@@ -1,0 +1,9 @@
+@use '../../sass' as *;
+input{
+    border: 0;
+    background-color: $black;
+    padding: .5rem 1.5rem;
+    border-radius: $boeder-radius;
+    color: $text-color;
+    font-family: $font-family;
+}

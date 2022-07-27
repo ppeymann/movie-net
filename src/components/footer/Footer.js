@@ -4,7 +4,7 @@ import './footer.scss'
 import { Link } from 'react-router-dom';
 
 import bg from '../../assets/footer-bg.jpg'
-import logo from '../../assets/tmovie.png'
+import logo from '../../assets/net.svg'
 
 const Footer = () => {
     return (
@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className='footer__content__log'>
                     <div className='logo'>
                         <img src={logo} alt="footer-logo" />
-                        <Link to='/'>Movies</Link>
+                        <Link to='/'>Movies-Net</Link>
                     </div>
                 </div>
                 <div className='footer__content__menus'>
